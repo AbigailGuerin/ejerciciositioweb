@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavender Haze Bazar</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header>
+        <h1>LAVENDER HAZE</h1>
+    </header>
+    <nav class="menu">
+        <div class="menu-contenedor">
+            <ul class="menu-flex">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./ofertas.html">Ofertas</a></li>
+    </nav>
+    </ul>
+    </div>
+
+    <div class="ofertas">
+        <h3>Ofertas de la semana</h3>
+    </div>
+
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Artículo</th>
+            <th>Precio</th>
+            <th>Elegir</th>
+        </tr>
+        <tr>
+            <td><img src="imagenes/ollas.jpg" alt="ollas"></td>
+            <td>Juego de Ollas</td>
+            <td>$69.999</td>
+            <td><input type="checkbox" value="juegodeollas"></td>
+        </tr>
+        <tr>
+            <td><img src="imagenes/espatulas.jpg" alt="espatulas"></td>
+            <td>Espátulas de silicona x4</td>
+            <td>$939</td>
+            <td><input type="checkbox" value="articulo2"></td>
+        </tr>
+        <tr>
+            <td><img src="imagenes/vasos.jpg" alt="vasos"></td>
+            <td>Vasos de vidrio x6</td>
+            <td>$8.394</td>
+            <td><input type="checkbox" value="articulo3"></td>
+        </tr>
+        <tr>
+            <td><img src="imagenes/mates.jpg" alt="mates"></td>
+            <td>Mates de Cerámica</td>
+            <td>$8.326 c/u</td>
+            <td><input type="checkbox" value="articulo4"></td>
+        </tr>
+    </table>
+
+    <section class="formulario">
+        <article>
+            <fieldset>
+                <legend>Por favor, complete todos los datos.</legend>
+                <table>
+                    <tr>
+                        <td><label for="nombre">NOMBRE: *</label></td>
+                        <td><input class="input-text" type="text" id="nombre" name="nombre"
+                                placeholder="Escriba su nombre" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="direccion">DIRECCION</label></td>
+                        <td><input class="input-text" type="text" id="direccion" name="direccion"
+                                placeholder="Escriba su dirección"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="telefono">TELÉFONO</label></td>
+                        <td><input class="input-text" type="tel" id="telefono" name="telefono"
+                                placeholder="Sin 0 y sin 15"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">MAIL</label></td>
+                        <td><input class="input-text" type="email" id="email" name="email"
+                                placeholder="usuario@servidor.com"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="localidad">LOCALIDAD</label></td>
+                        <td><input class="input-text" type="text" id="localidad" name="localidad"
+                                placeholder="Escriba su localidad" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="provincia">PROVINCIA</label></td>
+                        <td><input class="input-text" type="text" id="provincia" name="provincia"
+                                placeholder="Escriba su provincia"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="formapago">FORMA DE PAGO</label></td>
+                        <td>
+                            <select class="input-text" id="formapago" name="formapago">
+                                <option value="">Tarjeta</option>
+                                <option value="">Depósito Bancario</option>
+                                <option value="">Rapipago / Pago Fácil</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input class="boton" type="submit" value="Enviar datos"></td>
+                        <td><input class="boton" type="reset" value="Cancelar"></td>
+                    </tr>
+                </table>
+            </fieldset>
+            </form>
+        </article>
+    </section>
+
+    </main>
+    <div>
+        <h3>Comentarios:</h3>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea><br><br>
+        <td><input class="boton" type="submit" value="Enviar"></td>
+    </div>
